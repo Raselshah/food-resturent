@@ -1,0 +1,8 @@
+.home-navbar a{ 
+    background-color: #fff;
+}
+.home-navbar a:hover{
+    background-color: #fff;
+    text-decoration: underline;
+    color: lightcoral;
+}
