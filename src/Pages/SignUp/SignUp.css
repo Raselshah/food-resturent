@@ -1,0 +1,11 @@
+.signUp-bg {
+  background-image: url("../../images/bannerbackground1.png");
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+.from input {
+  padding: 15px 15px;
+  margin-top: 10px;
+}

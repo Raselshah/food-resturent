@@ -3,6 +3,7 @@ import "./App.css";
 import AllFoods from "./Pages/Home/AllFoods/AllFoods";
 import HomePage from "./Pages/Home/HomePage";
 import Navbar from "./Pages/Navbar/Navbar";
+import SignUp from "./Pages/SignUp/SignUp";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
           <Route path="/:lunch" element={<AllFoods />} />
           <Route path="/:dinner" element={<AllFoods />} />
         </Route>
+
+        <Route path="/signup" element={<SignUp />} />
       </Routes>
     </div>
   );
