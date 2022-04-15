@@ -18,7 +18,7 @@ const ChefDetails = () => {
       </p>
 
       <div className="chef-cards grid grid-cols-3 gap-5 mt-8">
-        <div className="chef-card shadow-xl p-1">
+        <div className="chef-card rounded shadow-xl p-2">
           <img src={chefOne} alt="" />
           <div className="chef-info flex items-center gap-3">
             <img src={iconOne} alt="" />
@@ -33,7 +33,7 @@ const ChefDetails = () => {
           </div>
         </div>
 
-        <div className="chef-card shadow-xl p-1">
+        <div className="chef-card rounded shadow-xl p-2">
           <img src={chefTwo} alt="" />
           <div className="chef-info  flex items-center gap-3">
             <img src={iconTwo} alt="" />
@@ -48,7 +48,7 @@ const ChefDetails = () => {
           </div>
         </div>
 
-        <div className="chef-card shadow-xl p-1">
+        <div className="chef-card rounded shadow-xl p-2">
           <img src={chefThree} alt="" />
           <div className="chef-info  flex items-center gap-3">
             <img src={iconThree} alt="" />

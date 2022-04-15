@@ -1,9 +1,9 @@
 import { signOut } from "firebase/auth";
 import React from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
-import { Link } from "react-router-dom";
 import auth from "../../firebase.init";
 import logo from "../../images/logo2.png";
+import CustomLink from "../CustomLink/CustomLink";
 import "./Navbar.module.css";
 
 const Navbar = () => {
@@ -12,21 +12,21 @@ const Navbar = () => {
     signOut(auth);
   };
   return (
-    <div className="flex justify-around items-center h-20">
+    <div className="flex justify-around items-center w-full h-20 ">
       <div className="logo-area">
         <img className="h-12" src={logo} alt="" />
       </div>
       <nav className="">
-        <Link to="/">Home</Link>
-        <Link to="/order">Icon</Link>
+        <CustomLink to="/breakfast">Home</CustomLink>
+        <CustomLink to="/order">Icon</CustomLink>
         {user ? (
-          <Link onClick={logOut} to="/signup">
+          <CustomLink onClick={logOut} to="/signup">
             Log Out
-          </Link>
+          </CustomLink>
         ) : (
-          <Link to="/login">Log In</Link>
+          <CustomLink to="/login">Log In</CustomLink>
         )}
-        <Link to="/signup">Sign Up</Link>
+        <CustomLink to="/signup">Sign Up</CustomLink>
       </nav>
     </div>
   );

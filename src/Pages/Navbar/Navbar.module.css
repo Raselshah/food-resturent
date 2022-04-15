@@ -1,9 +1,9 @@
-nav a{
-    padding: 4px 20px;
-    font-size: 18px;
+nav a {
+  padding: 4px 20px;
+  font-size: 18px;
 }
-nav a:hover{
-    background-color: lightcoral;
-    border-radius: 20px;
-    color: #fff;
+nav a:hover {
+  background-color: lightcoral;
+  border-radius: 20px;
+  color: #fff;
 }

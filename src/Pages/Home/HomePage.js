@@ -1,6 +1,8 @@
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import ChefDetails from "../ChefDetails/ChefDetails";
+import CustomLink from "../CustomLink/CustomLink";
+import Footer from "../Footer/Footer";
 import Banner from "./Banner/Banner";
 
 const HomePage = () => {
@@ -8,9 +10,9 @@ const HomePage = () => {
     <>
       <Banner />
       <nav className="home-navbar mt-10 text-center">
-        <Link to="breakfast">BreakFast</Link>
-        <Link to="lunch">Lunch</Link>
-        <Link to="dinner">Dinner</Link>
+        <CustomLink to="breakfast">BreakFast</CustomLink>
+        <CustomLink to="lunch">Lunch</CustomLink>
+        <CustomLink to="dinner">Dinner</CustomLink>
       </nav>
       <Outlet />
       <ChefDetails />

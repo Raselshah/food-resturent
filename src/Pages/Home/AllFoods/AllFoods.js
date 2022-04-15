@@ -34,10 +34,10 @@ const AllFoods = () => {
             foodsDetails={foodsDetails}
           ></SingleFoods>
         ))}
-        <button className="transition duration-700 ease-in-out bg-amber-500 py-2 px-6 rounded text-white block w-50 mx-auto">
-          Checkout Your Food
-        </button>
       </div>
+      <button className=" bg-amber-500 mt-8 mb-10 py-2 px-6 rounded text-white m-auto block">
+        Checkout Your Food
+      </button>
 
       {detailsFood.id && (
         <DetailsFood

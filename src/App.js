@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import Footer from "./Pages/Footer/Footer";
 import AllFoods from "./Pages/Home/AllFoods/AllFoods";
 import HomePage from "./Pages/Home/HomePage";
 import LogIn from "./Pages/LogIn/LogIn";
@@ -21,6 +22,7 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<LogIn />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

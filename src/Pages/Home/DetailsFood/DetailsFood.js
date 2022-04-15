@@ -3,8 +3,8 @@ import React from "react";
 const DetailsFood = ({ detailsFood }) => {
   const { name, price, description, img } = detailsFood;
   return (
-    <div>
-      <div className="card ">
+    <div className="w-max m-auto">
+      <div className="card shadow-lg shadow-orange-500/50 rounded">
         <div className="card-photo">
           <img src={img} alt="" />
         </div>
