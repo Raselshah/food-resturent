@@ -1,0 +1,14 @@
+.card-photo img{
+    width: 200px;
+    height: 200px;
+    box-shadow: 8px 8px 8px lightgray;
+    border-radius: 50%;
+}
+.card{
+    padding: 20px;
+}
+/* .card:hover{
+    box-shadow: 5px 5px 5px 5px lightgray;
+    border-radius: 10px;
+    cursor: pointer;
+} */
