@@ -31,8 +31,8 @@ const SignUp = () => {
   };
   const handleEmail = (event) => {
     const emailRegx = /\S+@\S+\.\S+/;
-    const vaidEmail = emailRegx.test(event.target.value);
-    if (vaidEmail) {
+    const validEmail = emailRegx.test(event.target.value);
+    if (validEmail) {
       setUserInfo({ ...userInfo, email: event.target.value });
       setUserError({ email: "" });
     } else {
